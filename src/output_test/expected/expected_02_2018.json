@@ -1,0 +1,94 @@
+{
+    "contraCheque": [
+        {
+            "idContraCheque": "mpmg/01/2018/1",
+            "chaveColeta": "mpmg/01/2018",
+            "nome": "ABELARDO GUIMARAES CASTRO",
+            "matricula": "293600",
+            "ativo": true,
+            "remuneracoes": {
+                "remuneracao": [
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Remuneração Básica",
+                        "valor": 28947.56
+                    },
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Remuneração Eventual ou Temporária",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Função de Confiança ou Cargo em Comissão",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Gratificação Natalina",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Férias",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Abono de Permanência",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Contribuição Previdenciária",
+                        "valor": -3184.23
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Imposto de Renda",
+                        "valor": -6111.28
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Retenção por Teto Constitucional"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Vale Alimentação",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Auxílio Alimentação",
+                        "valor": 884.0,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Auxílio Creche",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Auxílio Transporte",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Auxílio Saúde",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Auxílio Moradia",
+                        "valor": 4377.73,
+                        "tipoReceita": "O"
+                    }
+                ]
+            }
+        }
+    ]
+}
