@@ -39,11 +39,11 @@ else:
 def parse_execution(data, file_names):
     # Cria objeto com dados da coleta.
     coleta = Coleta.Coleta()
-    coleta.chave_coleta = IDColeta("mppi", month, year)
-    coleta.orgao = "mppi"
+    coleta.chave_coleta = IDColeta("mpmg", month, year)
+    coleta.orgao = "mpmg"
     coleta.mes = int(month)
     coleta.ano = int(year)
-    coleta.repositorio_coletor = "https://github.com/dadosjusbr/coletor-mppi"
+    coleta.repositorio_coletor = "https://github.com/dadosjusbr/coletor-mpmg"
     coleta.versao_coletor = crawler_version
     coleta.arquivos.extend(file_names)
     timestamp = Timestamp()
