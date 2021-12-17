@@ -1,0 +1,118 @@
+{
+    "contraCheque": [
+        {
+            "idContraCheque": "mpmg/05/2020/1",
+            "chaveColeta": "mpmg/05/2020",
+            "nome": "JULIANA MARIA RIBEIRO DA FONSECA SALOMAO",
+            "matricula": "152600",
+            "funcao": "PROMOT.ENTRANC.ESPECIAL",
+            "localTrabalho": "PARÁ DE MINAS - COMARCA; PARA DE MINAS-PJ-01PJ",
+            "ativo": true,
+            "remuneracoes": {
+                "remuneracao": [
+                    {
+                        "categoria": "contracheque_may_20_forward",
+                        "item": "Remuneração Básica",
+                        "valor": 33689.11
+                    },
+                    {
+                        "categoria": "contracheque_may_20_forward",
+                        "item": "Remuneração Eventual ou Temporária",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_may_20_forward",
+                        "item": "Função de Confiança ou Cargo em Comissão",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_may_20_forward",
+                        "item": "Gratificação Natalina",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_may_20_forward",
+                        "item": "Férias",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_may_20_forward",
+                        "item": "Abono de Permanência",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_may_20_forward",
+                        "item": "Contribuição Previdenciária",
+                        "valor": -3705.8
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_may_20_forward",
+                        "item": "Imposto de Renda",
+                        "valor": -7376.05
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_may_20_forward",
+                        "item": "Retenção por Teto Constitucional"
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_may_20_forward",
+                        "item": "Outros Descontos Eventuais"
+                    },
+                    {
+                        "categoria": "indenizacoes_may_20_forward",
+                        "item": "Auxílio Alimentação",
+                        "valor": 1100.0,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_may_20_forward",
+                        "item": "Auxílio Creche",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_may_20_forward",
+                        "item": "Auxílio Saúde",
+                        "valor": 980.72,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_may_20_forward",
+                        "item": "Auxílio Transporte Estagiário",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_may_20_forward",
+                        "item": "Indenizações",
+                        "valor": 5614.85,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_may_20_forward",
+                        "item": "Indenizações e Diligênias",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_may_20_forward",
+                        "item": "Adicionais de Periculosidade e Insalubridade",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_may_20_forward",
+                        "item": "Gratificações",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_may_20_forward",
+                        "item": "Outras Remunerações",
+                        "valor": 514.69,
+                        "tipoReceita": "O"
+                    }
+                ]
+            }
+        }
+    ]
+}

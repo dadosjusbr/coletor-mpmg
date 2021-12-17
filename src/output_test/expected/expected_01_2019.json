@@ -1,0 +1,94 @@
+{
+    "contraCheque": [
+        {
+            "idContraCheque": "mpmg/1/2019/1",
+            "chaveColeta": "mpmg/1/2019",
+            "nome": "DEL VECCHIO LIMA DOS SANTOS",
+            "matricula": "100600",
+            "funcao": "PROMOTOR 2A ENTRANCIA",
+            "localTrabalho": "DISPONIBILIDADE COMPULSORIA-COMARCA; DISPONIBILIDADE COMPULSORIA - UNIDADE",
+            "ativo": true,
+            "remuneracoes": {
+                "remuneracao": [
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Remuneração Básica",
+                        "valor": 21725.58
+                    },
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Remuneração Eventual ou Temporária",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Função de Confiança ou Cargo em Comissão",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Gratificação Natalina",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Férias",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Abono de Permanência",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Contribuição Previdenciária",
+                        "valor": -2389.81
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Imposto de Renda",
+                        "valor": -396.0
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Retenção por Teto Constitucional"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Vale Alimentação",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Auxílio Alimentação",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Auxílio Creche",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Auxílio Transporte",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Auxílio Saúde",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Auxílio Moradia",
+                        "tipoReceita": "O"
+                    }
+                ]
+            }
+        }
+    ]
+}

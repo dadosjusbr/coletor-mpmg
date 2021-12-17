@@ -1,0 +1,96 @@
+{
+    "contraCheque": [
+        {
+            "idContraCheque": "mpmg/01/2020/1",
+            "chaveColeta": "mpmg/01/2020",
+            "nome": "ABELARDO GUIMARAES CASTRO",
+            "matricula": "293600",
+            "funcao": "PROMOT.ENTRANC.ESPECIAL",
+            "localTrabalho": "BELO HORIZONTE - COMARCA; BH-01PJ FAZENDA PUBLICA EXEC FISCAIS",
+            "ativo": true,
+            "remuneracoes": {
+                "remuneracao": [
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Remuneração Básica",
+                        "valor": 33689.11
+                    },
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Remuneração Eventual ou Temporária",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Função de Confiança ou Cargo em Comissão",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Gratificação Natalina",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Férias",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Abono de Permanência",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Contribuição Previdenciária",
+                        "valor": -3705.8
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Imposto de Renda",
+                        "valor": -7271.78
+                    },
+                    {
+                        "natureza": "D",
+                        "categoria": "contracheque_april_20_backward",
+                        "item": "Retenção por Teto Constitucional"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Vale Alimentação",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Auxílio Alimentação",
+                        "valor": 1100.0,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Auxílio Creche",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Auxílio Transporte",
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Auxílio Saúde",
+                        "valor": 2572.54,
+                        "tipoReceita": "O"
+                    },
+                    {
+                        "categoria": "indenizacoes_april_20_backward",
+                        "item": "Auxílio Moradia",
+                        "tipoReceita": "O"
+                    }
+                ]
+            }
+        }
+    ]
+}
