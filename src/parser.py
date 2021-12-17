@@ -11,13 +11,14 @@ from headers_keys import (CONTRACHEQUE_MAY_20_FORWARD,
 import number
 
 
-def parse_employees(fn, chave_coleta, categoria):
+def parse_employees(fn, chave_coleta, categoria, base):
     employees = {}
     counter = 1
     for row in fn:
         matricula = row[1]
         name = row[2]
-        function = row[3]
+        function = row[base[0]]
+        location = row[base[1]]
 
         if name == "TOTAL":
             break
@@ -27,7 +28,8 @@ def parse_employees(fn, chave_coleta, categoria):
             membro.chave_coleta = chave_coleta
             membro.nome = name
             membro.matricula = matricula
-            # membro.funcao = function
+            membro.funcao = function
+            membro.local_trabalho = location
             membro.tipo = Coleta.ContraCheque.Tipo.Value("MEMBRO")
             membro.ativo = True
             
@@ -89,11 +91,11 @@ def parse(data, chave_coleta, month, year):
 
     # Puts all parsed employees in the big map
     if (int(year) < 2020) or (int(month) <= 4 and year == "2020"):
-        employees.update(parse_employees(data.contracheque, chave_coleta, CONTRACHEQUE_APRIL_20_BACKWARD))
+        employees.update(parse_employees(data.contracheque, chave_coleta, CONTRACHEQUE_APRIL_20_BACKWARD, [3, 5]))
         update_employees(data.indenizatorias, employees, INDENIZACOES_APRIL_20_BACKWARD)
 
     else:
-        employees.update(parse_employees(data.contracheque, chave_coleta, CONTRACHEQUE_MAY_20_FORWARD))
+        employees.update(parse_employees(data.contracheque, chave_coleta, CONTRACHEQUE_MAY_20_FORWARD, [3, 4]))
         update_employees(data.indenizatorias, employees, INDENIZACOES_MAY_20_FORWARD)
 
     for i in employees.values():
