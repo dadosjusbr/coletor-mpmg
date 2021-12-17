@@ -1,5 +1,5 @@
 
-![testes](https://github.com/dadosjusbr/coletor-MPMG/actions/workflows/parser-testes.yml/badge.svg)    
+![testes](https://github.com/dadosjusbr/coletor-MPMG/actions/workflows/docker-publish.yml/badge.svg)    
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dadosjusbr/coletor-MPMG)
 
 # Ministério Público de Minas Gerais
