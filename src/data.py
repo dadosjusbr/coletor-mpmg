@@ -35,7 +35,7 @@ def load(file_names, year, month, output_path):
     """
 
     contracheque = _read([c for c in file_names if "contracheque" in c][0], month, year)
-    indenizatorias = _read([i for i in file_names if "indenizatorias" in i][0])
+    indenizatorias = _read([i for i in file_names if "indenizatorias" in i][0], month, year)
 
     return Data(contracheque, indenizatorias, year, month, output_path)
 
