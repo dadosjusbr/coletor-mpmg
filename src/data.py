@@ -16,7 +16,7 @@ def _read(file, month, year):
         data = data[: -1]
         data = data.to_numpy()
     except Exception as excep:
-        if str(excep) == "No tables found" or str(excep) == "html5lib not found, please install it":
+        if str(excep) == "No tables found":
             sys.stderr.write(f"Não existe planilhas para {month}/{year}.")
             sys.exit(STATUS_DATA_UNAVAILABLE)
         print(f"Erro lendo as planilhas: {excep}", file=sys.stderr)
