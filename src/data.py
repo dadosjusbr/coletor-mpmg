@@ -12,8 +12,7 @@ STATUS_INVALID_FILE = 5
 def _read(file, month, year):
     try:
         data = pd.read_html(file, decimal=',', thousands='.')
-        data = data[0]
-        data = data[: -1]
+        data = data[-1]
         data = data.to_numpy()
     except Exception as excep:
         if str(excep) == "No tables found":
